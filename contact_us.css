@@ -1,0 +1,59 @@
+.home .layer .contact-us {
+        margin-top: 149px;
+    /* margin-left: 100px; */
+    text-align: center;
+    font-size:40px ;
+}
+.home .layer input{
+    width: 350px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.home .layer textarea{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.home .layer button{
+    padding: 10px;
+    padding-left:50px ;
+    padding-right: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    transition: 0.2s;
+}
+.home button:hover{
+    background-color: rgb(194, 147, 87);
+    border: none;
+}
+@media (max-width: 768px){
+
+    .home .layer .contact-us {
+        margin-top: 100px;
+        font-size: 24px;
+        padding: 0 10px;
+    }
+
+    .home .layer input{
+        width: 90%;
+        font-size: 16px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .home .layer textarea{
+        width: 90%;
+        font-size: 16px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .home .layer button{
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+}
